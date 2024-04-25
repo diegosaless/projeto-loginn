@@ -1,0 +1,58 @@
+@charset "UFT-8";
+
+/* MEDIA QUERIES 
+-----------------
+CELULAR - 600pc ate 768px
+TABLET - 768px ate 992px
+pc - 992px ate 1200px
+grande tela - 1200px +
+
+PALETA DE CORES
+amarelo - ce9300
+laranja - FF680A
+azul - 023047
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
+    body, html {
+        background-image: linear-gradient(to top, #ff680a, #ce9300);
+    }
+
+    #login {
+        width: 90vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: top center;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) /* pc */{
+    body, html {
+        background-image: linear-gradient(to top, #ff680a, #ce9300);
+    }
+
+    #login {
+        width: 900px;
+    }
+
+    section#login > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-position: top center;
+    }
+
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+    }
+}
