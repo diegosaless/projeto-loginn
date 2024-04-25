@@ -15,7 +15,7 @@ azul - 023047
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
     body, html {
-        background-image: linear-gradient(to top, #cf5408, #e9a702);
+        background-image: linear-gradient(to top, #cf5408, #e9a702 70%);
     }
 
     #login {
@@ -46,7 +46,7 @@ azul - 023047
 
 @media screen and (min-width: 992px) /* pc */{
     body, html {
-        background-image: linear-gradient(to top, #ff680a, #ce9300);
+        background-image: linear-gradient(to top, #cf5408, #e9a702 70%);
     }
 
     #login {
